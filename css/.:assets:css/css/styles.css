@@ -10,3 +10,18 @@
     display: inline-block;
 
 }
+
+.cascading-parent {
+    font-weight: bold;
+    color: #FF0 !important;
+    size: 100%;
+    font-size: 80px;
+
+
+}
+
+.cascading-child {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
