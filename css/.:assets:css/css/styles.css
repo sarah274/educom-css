@@ -55,3 +55,26 @@ a {
     width: 200px;
     height: 200px;
 }
+
+selector:pseudo-class {
+    property: value;
+}
+/*unvistied link */
+a:link {
+    color:rgb(55, 0, 255);
+}
+
+/*visited link*/
+a:visited {
+    color:green;
+}
+
+/*a mouse over link */
+a:hover {
+color:hotpink
+}
+
+/*selected link*/
+a:active {
+    color:rgb(0, 187, 255);
+}
