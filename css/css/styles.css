@@ -1,3 +1,29 @@
+/*At the top of the file*/
+
+:root {
+
+    /*FONTS */
+    --regular: "Comic Sans MS";
+
+    /*COLORS*/
+    --main-color:blue;
+    --bg-color: rgb(165, 42, 126);
+    --text-color: yellow;
+
+    --darker-red: #F0F;
+
+    /*MARGINS*/
+    --spacing-unit: 10px;
+    --margin: calc(0.2 * var(--spacing-unit));
+    --padding: calc(0.2 * var(--spacing-unit));
+}
+
+h1 { 
+    font-family: var(--regular);
+    color: var(--darker-red);
+}
+
+
 
 .red-square {
     width: 80px;
@@ -56,9 +82,7 @@ a {
     height: 200px;
 }
 
-selector:pseudo-class {
-    property: value;
-}
+
 /*unvistied link */
 a:link {
     color:rgb(55, 0, 255);
@@ -78,3 +102,4 @@ color:hotpink
 a:active {
     color:rgb(0, 187, 255);
 }
+
