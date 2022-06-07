@@ -103,3 +103,52 @@ a:active {
     color:rgb(0, 187, 255);
 }
 
+
+.button-container a {
+    width: 200px;
+    padding: 20px;
+    margin: 70px;
+    color: #FFF;
+    background-color:rgb(41, 98, 178);
+
+    /*ROUNDING THE CORNERS */
+    border-radius: 10px;
+
+    /*CREATED WITH THE SHADOW GENERATOR */
+    -webkit-box-shadow: 32px- 20px 10px 7px rgba(194,165,17,0.85);
+    -moz-box-shadow: 32px -20px 10px 7px rgba(194,165,17, 0.85);
+    box-shadow: 32px -20px 10px 7px rgba(194,165,17,0.85);
+
+    /*Let's get rid if the underline */
+    text-decoration: none;
+
+    /*Transition effect */
+    transition: all 0.5s ease;
+    
+}
+
+.button-container a:hover {
+    background-color:#AF1F16;
+
+    /*Let's get rid of the underline*/
+    text-decoration: none;
+
+}
+
+.button2 a {
+    margin: 300px;
+    width: 80px;
+    padding: 20px;
+    color: var(--text-color);
+    background-color: pink;
+    
+}
+
+.button3 a {
+    margin: 600px;
+    width: 80px;
+    padding: 20px;
+    color:rgb(0, 187, 255)
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
