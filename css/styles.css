@@ -1,154 +1,24 @@
-/*At the top of the file*/
-
-:root {
-
-    /*FONTS */
-    --regular: "Comic Sans MS";
-
-    /*COLORS*/
-    --main-color:blue;
-    --bg-color: rgb(165, 42, 126);
-    --text-color: yellow;
-
-    --darker-red: #F0F;
-
-    /*MARGINS*/
-    --spacing-unit: 10px;
-    --margin: calc(0.2 * var(--spacing-unit));
-    --padding: calc(0.2 * var(--spacing-unit));
-}
-
-h1 { 
-    font-family: var(--regular);
-    color: var(--darker-red);
-}
-
-
-
-.red-square {
-    width: 80px;
-    height: 80px;
-    color: #FFF;
-    padding: 20px;
-    margin: 10px;
-    font-size: 14px;
-    background-color: rgba(255,0,0,0.4);
-    display: inline-block;
-
-}
-
-.cascading-parent {
-    font-weight: bold;
-    color: #FF0 !important;
-    size: 100%;
-    font-size: 80px;
-
-
-}
-
-.cascading-child {
-    background-color: blue;
-    width: 300px;
-    height: 300px;
-}
-
-a {
-    font-size: 22px;
-    color: #F0F;
-}
-
-.cascading-parent h2 {
-    color:#FD0;
-}
-
-.cascading-parent a {
-    font-size: 32px;
-    color: #CCC;
-}
-
-
-.site-font {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-.site-color {
-    background-color: indigo;
-    color: #FFF;
-}
-
-.site-square {
-    width: 200px;
-    height: 200px;
-}
-
-
-/*unvistied link */
-a:link {
-    color:rgb(55, 0, 255);
-}
-
-/*visited link*/
-a:visited {
-    color:green;
-}
-
-/*a mouse over link */
-a:hover {
-color:hotpink
-}
-
-/*selected link*/
-a:active {
-    color:rgb(0, 187, 255);
-}
-
 
 .button-container a {
     width: 200px;
-    padding: 20px;
-    margin: 70px;
+    padding: 10px;
     color: #FFF;
-    background-color:rgb(41, 98, 178);
-
-    /*ROUNDING THE CORNERS */
-    border-radius: 10px;
-
-    /*CREATED WITH THE SHADOW GENERATOR */
-    -webkit-box-shadow: 32px- 20px 10px 7px rgba(194,165,17,0.85);
-    -moz-box-shadow: 32px -20px 10px 7px rgba(194,165,17, 0.85);
-    box-shadow: 32px -20px 10px 7px rgba(194,165,17,0.85);
-
-    /*Let's get rid if the underline */
-    text-decoration: none;
-
-    /*Transition effect */
-    transition: all 0.5s ease;
+    background-color: #F00;
     
+    /* ROUNDING THE CORNERS */
+    border-radius: 10px;
+    
+    /* CREATED WITH THE SHADOW GENERATOR */
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+
+    /* Let's get rid of the underline */
+    text-decoration: none;
 }
 
 .button-container a:hover {
-    background-color:#AF1F16;
-
-    /*Let's get rid of the underline*/
+    background-color: #AF1F16;
+    /* Let's get rid of the underline */
     text-decoration: none;
-
-}
-
-.button2 a {
-    margin: 300px;
-    width: 80px;
-    padding: 20px;
-    color: var(--text-color);
-    background-color: pink;
-    
-}
-
-.button3 a {
-    margin: 600px;
-    width: 80px;
-    padding: 20px;
-    color:rgb(0, 187, 255)
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
