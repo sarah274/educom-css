@@ -1,5 +1,5 @@
 
-.button-container a {
+.button-container {
     width: 200px;
     padding: 10px;
     color: #FFF;
@@ -15,10 +15,13 @@
 
     /* Let's get rid of the underline */
     text-decoration: none;
+
+    cursor: pointer;
 }
 
-.button-container a:hover {
-    background-color: #AF1F16;
+
+.button-container:hover {
+    background-color: #f6f5fb00;
     /* Let's get rid of the underline */
     text-decoration: none;
 }
