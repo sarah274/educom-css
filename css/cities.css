@@ -40,14 +40,35 @@ html, body {
 
 }
 
-.menu-button{
+.menu {
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: rgba(241, 246, 246, 0);
+}
+.menu-trigger{
+    background-color: #FF9
     width: 40px;
     height: 40px;
     cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.menu-trigger:hover{
+    background-color: aqua;
+}
+
+.menu-trigger:hover .dropdown{
+    top: 0px;
+}
+
+.dropdown {
+    position: fixed;
+    top: -400px;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: #FF9
+    padding: 40px;
     transition: all 0.4s ease;
 }
 
