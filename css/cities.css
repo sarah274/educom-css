@@ -15,14 +15,21 @@ html, body {
 }
 
 .block {
-    /* background-color: grey; */
-    display: inline-block;
-    width: 32%;
-    max-height: 150px; height: 150px;
+    width: 30%;
+    height: 175px;
     margin: 5px;
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
     color:#FFF;
+    border-radius: 7px;
+   
+    display: inline-block;
     
+
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .block:hover{
@@ -37,7 +44,7 @@ html, body {
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: aqua;
+    background-color: rgba(241, 246, 246, 0);
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -52,11 +59,15 @@ html, body {
     height: 40px;
 }
 
+
 .background-image1 {
-    background-image: url("https://cdn.virily.com/wp-content/uploads/2018/12/P1070294-1.jpg");
+    background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/07/aa/32/2f.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    filter:grayscale(100%);
+    
+    
 }
 
 .background-image2 {
@@ -69,13 +80,8 @@ html, body {
 .background-image3 {
     background-image: url("https://static.posters.cz/image/750webp/25647.webp");
     background-position: center center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 
-/* .centered {
-    position: absolute;
-    top: 50%;
-    /* left: 50%;
-    transform: translate(-50%, -50%);  */
